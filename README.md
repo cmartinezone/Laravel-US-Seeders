@@ -1,9 +1,9 @@
-# Project Title
+# USA States' Cities - Laravel Seaders.
 
 Laravel - Seeders for US Cities
 
-## Getting Started
-This Projects has been created to siplified the relations of cities belogs to each state in the The United State
+## Description:
+This Projects has been created to siplified the relations of cities belogs to each state in the The United State.
 
 
 ### Prerequisites
