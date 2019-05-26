@@ -1,10 +1,10 @@
 # Project Title
 
-One Paragraph of project description goes here
+Laravel - Seeders for US Cities
 
 ## Getting Started
+This Projects has been created to siplified the relations of cities belogs to each state in the The United State
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
