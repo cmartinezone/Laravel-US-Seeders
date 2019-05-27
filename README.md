@@ -4,6 +4,28 @@ Laravel Seeders will create the Cities of the Unisted Stated asociated to there 
 ## Description:
 This Projects has been created to siplified the relations of cities belogs to each state in the The United State.
 
+### Installing
+
+To configure the migration and execute the seeders you need to have the .ENV files already configured and connected to a existent databas.
+
+1- Download this repository as zip file.
+```
+Extract the to directories on this repository
+
+-Copy the directories to your database direcotry in your laravel project.
+
+migrations ->>>>>  YourLaravelProject> database 
+seeds      ->>>>>  YourLaravelProject> database
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
 ###  Laravel Migrations will Generate:
 countries:
 
