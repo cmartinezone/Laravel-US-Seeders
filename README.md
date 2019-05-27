@@ -7,8 +7,9 @@ This Projects has been created to siplified the relations of cities belogs to ea
 
 
 ### Tables structure
+Countries:
 
-| Syntax      | Description |
+|   name      |  Data type  |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
