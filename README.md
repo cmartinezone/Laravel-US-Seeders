@@ -85,5 +85,6 @@ Data has been extracted and parsed to laravel format using windows powershell
 Data comes from free postal code data page, it is 99.9 acurate: http://download.geonames.org/export/zip/
 
 ## Donation:
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
+If this project help you reduce time to develop, you can give me a cup of coffee :)
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/cmartinezone)
