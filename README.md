@@ -45,6 +45,13 @@ php artisan migrate:fresh --seed
 You are done! :)
 
 ###  Laravel Migrations will Generate the following structure:
+
+Seaders create:
+1 Country 
+51 states including (Washington DC) as state.
+29,984 cities asociated to their states.
+
+
 countries:
 
 |   Column    |     Data type     |
@@ -70,15 +77,14 @@ cities:
 | name        | VARCHAR,  45      |
 |-state_id    | INT               | 
 
+##Data source:
 The database table structure has been created following MySQL world database standard
 https://dev.mysql.com/doc/index-other.html] 
 
+Data has been extracted and parsed to laravel format using windows powershell
+Data comes from free postal code data page, it is 99.9 acurate: http://download.geonames.org/export/zip/
 
-
-```
-```
-
-## Donation
+## Donation:
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A8YE92K9QM7NA)
