@@ -1,8 +1,8 @@
 # USA States' Cities - Laravel Seaders.
-Laravel Seeders will create the Cities of the Unisted Stated asociated to there state.
+Laravel Migrations and Seeders for the cities of the Unisted Stated asociated to their state.
 
 ## Description:
-This Projects has been created to siplified the relations of cities belogs to each state in the The United State.
+This Project has been created to simplified database migrations in any laravel project where you need to have cities of the United State related to their state. 
 
 ### Installation instructions:
 
@@ -10,7 +10,7 @@ To configure the migration and execute the seeders you must have the .ENV file a
 
 1- Download this repository as zip file.
 ```
-Copy the folders to your database folder in your laravel project.
+Copy the two folders to your laravel project in the database folder.
 
 migrations ->>>>>  YourLaravelProject> database 
 seeds      ->>>>>  YourLaravelProject> database
@@ -37,14 +37,14 @@ Go to the root of your project:
 ```
 composer dump-autoload
 
-after the command exeuted run the Migration with the seeders:
+After the first command executed successfully run the Migrations with the seeders:
 
 php artisan migrate:fresh --seed
 
 ```
+You are done! :)
 
-
-###  Laravel Migrations will Generate:
+###  Laravel Migrations will Generate the following structure:
 countries:
 
 |   Column    |     Data type     |
@@ -73,77 +73,12 @@ cities:
 The database table structure has been created following MySQL world database standard
 https://dev.mysql.com/doc/index-other.html] 
 
-```
-```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
 
 ```
-Give the example
 ```
 
-And repeat
+## Donation
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A8YE92K9QM7NA)
