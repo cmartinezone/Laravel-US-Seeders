@@ -5,8 +5,8 @@ Laravel Seeders will create the Cities of the Unisted Stated asociated to there 
 This Projects has been created to siplified the relations of cities belogs to each state in the The United State.
 
 ###  Laravel Migrations will generate the following tables:
-
 countries:
+
 |   Column    |     Data type     |
 | ----------- | ----------------- |
 |*country_id  | INT AUTO_INCREMENT|
@@ -14,6 +14,7 @@ countries:
 | name        | VARCHAR, 45       | 
 
 states:
+
 |   Column    |     Data type     |
 | ----------- | ----------------- |
 |*state_id    | INT AUTO_INCREMENT|
@@ -22,6 +23,7 @@ states:
 |-country_id  | INT               | 
 
 cities:
+
 |   Column    |     Data type     |
 | ----------- | ----------------- |
 |*state_id    | INT AUTO_INCREMENT|
