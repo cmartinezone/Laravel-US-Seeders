@@ -1,8 +1,8 @@
 # USA States' Cities - Laravel Seaders.
-Laravel Migrations and Seeders for the cities of the Unisted Stated asociated to their state.
+Laravel Migrations and Seeders for the cities of the Unisted Stated associated  to their state.
 
 ## Description:
-This Project has been created to simplified database migrations in any laravel project where you need to have cities of the United State related to their state. 
+This Project has been created to simplified database migration with seeders in any laravel project where you need to have cities of the United State related to their state. 
 
 ### Installation instructions:
 
@@ -46,11 +46,10 @@ You are done! :)
 
 ### PHP Artisan migrate will generate the following structure:
 
-Seaders creates:
+Seeders creates: 
 1 - Country 
-51 - States including (Washington DC) as state asociated to their country
-29,984 - Cities asociated to their states.
-
+51 - States including (Washington DC) as state associated to their country
+29,984 - Cities associated to their states.
 
 countries:
 
@@ -66,7 +65,7 @@ states:
 | ----------- | ----------------- |
 |*state_id    | INT AUTO_INCREMENT|
 | name        | VARCHAR,  45      |
-| abv         | VARVCHAR, 45      | 
+| abv         | VARCHAR, 45       | 
 |-country_id  | INT               | 
 
 cities:
