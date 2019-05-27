@@ -47,6 +47,7 @@ You are done! :)
 ### PHP Artisan migrate will generate the following structure:
 
 Seeders creates: 
+
 1 - Country 
 
 51 - States including (Washington DC) as state associated to their country
