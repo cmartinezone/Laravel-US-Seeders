@@ -8,10 +8,10 @@ This Projects has been created to siplified the relations of cities belogs to ea
 
 ### Tables structure
 
-Coutries:
-| Attempt | #1 | #2 |
-| :---: | :---: | :---: |
-| Seconds | 301 | 283 |
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 ```
 Give examples
