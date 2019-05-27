@@ -1,21 +1,35 @@
 # USA States' Cities - Laravel Seaders.
-
-Laravel - Seeders for US Cities
+Laravel Seeders will create the Cities of the Unisted Stated asociated to there state.
 
 ## Description:
 This Projects has been created to siplified the relations of cities belogs to each state in the The United State.
 
+###  Laravel Migrations will generate the following tables:
 
-### Tables structure
-Countries:
+countries:
+|   Column    |     Data type     |
+| ----------- | ----------------- |
+|*country_id  | INT AUTO_INCREMENT|
+| code        | CHAR, 3           |
+| name        | VARCHAR, 45       | 
 
-|   name      |  Data type  |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+states:
+|   Column    |     Data type     |
+| ----------- | ----------------- |
+|*state_id    | INT AUTO_INCREMENT|
+| name        | VARCHAR,  45      |
+| abv         | VARVCHAR, 45      | 
+|-country_id  | INT               | 
+
+cities:
+|   Column    |     Data type     |
+| ----------- | ----------------- |
+|*state_id    | INT AUTO_INCREMENT|
+| name        | VARCHAR,  45      |
+|-state_id    | INT               | 
 
 ```
-Give examples
+This This structure has been created following MySQL world databse standard.
 ```
 
 ### Installing
