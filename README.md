@@ -52,7 +52,7 @@ Seeders creates:
 
 51 - States including (Washington DC) as state associated to their country
 
-29,984 - Cities associated to their states.
+29,539 - Cities associated to their states.
 
 countries:
 
