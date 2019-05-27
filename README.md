@@ -44,9 +44,9 @@ php artisan migrate:fresh --seed
 ```
 You are done! :)
 
-### PHP Artisan migrations will generate the following structure:
+### PHP Artisan migrate will generate the following structure:
 
-Seaders create:
+Seaders creates:
 1 - Country 
 51 - States including (Washington DC) as state asociated to their country
 29,984 - Cities asociated to their states.
