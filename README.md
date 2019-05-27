@@ -16,8 +16,8 @@ migrations ->>>>>  YourLaravelProject> database
 seeds      ->>>>>  YourLaravelProject> database
 ```
 
-2- Configure composer.json for 'state-cities' seeders folder:
-Add in autoload > classmap  the path of 'database/seeds/state-cities' seeders.
+2- Configure composer.json for 'state-cities' seeders folder path:
+Add in autoload > classmap  the path of 'database/seeds/state-cities' and save the changes.
 it will look as the following example:
 ```
   "autoload": {
@@ -32,7 +32,17 @@ it will look as the following example:
     }
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3- Run the following commands in the terminal:
+Go to the root of your project:
+```
+composer dump-autoload
+
+after the command exeuted run the Migration with the seeders:
+
+php artisan migrate:fresh --seed
+
+```
+
 
 ###  Laravel Migrations will Generate:
 countries:
