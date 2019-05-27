@@ -11,7 +11,7 @@ class StatesTableSeeder extends Seeder
      */
     public function run()
     {
-        //set country id for the states above
+        //set country id for the states below
         $country_id = 1;
 
         //States Array
