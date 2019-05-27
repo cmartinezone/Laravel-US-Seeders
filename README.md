@@ -6,9 +6,13 @@ Laravel - Seeders for US Cities
 This Projects has been created to siplified the relations of cities belogs to each state in the The United State.
 
 
-### Prerequisites
+### Tables structure
 
-What things you need to install the software and how to install them
+Coutries:
+|     name      |   data type   |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ```
 Give examples
