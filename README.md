@@ -30,8 +30,8 @@ cities:
 | name        | VARCHAR,  45      |
 |-state_id    | INT               | 
 
+The database table structure has been created following [MySQL world database standard]([https://dev.mysql.com/doc/index-other.html])
 ```
-The database table structure has been created following MySQL world database standard [https://dev.mysql.com/doc/index-other.html].
 ```
 
 ### Installing
