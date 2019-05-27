@@ -9,10 +9,9 @@ This Projects has been created to siplified the relations of cities belogs to ea
 ### Tables structure
 
 Coutries:
-|     name      |   data type   |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Attempt | #1 | #2 |
+| :---: | :---: | :---: |
+| Seconds | 301 | 283 |
 
 ```
 Give examples
